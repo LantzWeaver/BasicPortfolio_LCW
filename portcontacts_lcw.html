@@ -3,24 +3,34 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Lantz Weaver</title>
-	<link  rel="stylesheet" type="text/css" href="portstyle.css"/>
+	<!--<link rel="stylesheet" type="text/css" href="portreset_lcw.css"/>-->
+	<link  rel="stylesheet" type="text/css" href="portstyle_lcw.css"/>
 </head>
-<body>
+<body class="body">
 	<div>
-		<h1>Lantz Weaver</h1>
-		<p>About</p>
-		<p>Portfolio</p>
-		<p>Contact</p>
-		<h2>Connect with Me</h2>
+		<header class="header">
+		<h1 class="header" id="name">Lantz Weaver</h1>
+		<p class="header" id="tab1">About</p>
+		<p class="header" id="tab2">Portfolio</p>
+		<p class="header" id="tab3">Contact</p>
+		</header>
 	</div>
 	<div>
-		<h1>Contact</h1>
+		<h2 class="head2">Connect with Me</h2>
+
+		<a class="head2" href="https://github.com/LantzWeaver" target="_blank"><img src="https://raw.githubusercontent.com/LantzWeaver/BasicPortfolio_LCW/master/assets_lcw/images_lcw/github_logo.png" alt="Connect to github" width="50px" height="50px"></a>
+		
+		<a class="head2" href="https://www.linkedin.com/in/lantz-weaver-69799584/" target="_blank"><img src="https://raw.githubusercontent.com/LantzWeaver/BasicPortfolio_LCW/master/assets_lcw/images_lcw/linkedIn_logo.png" alt="Connect to LinkedIn" width="50px" height="50px"></a>
+
+		<a class="head2" href="https://stackoverflow.com/users/story/7916168" target="_blank"><img src="https://raw.githubusercontent.com/LantzWeaver/BasicPortfolio_LCW/master/assets_lcw/images_lcw/stackoverflow_logo.png" width="50px" height="50px"></a>
+	</div>
+	<div>
+		<h1 class="head3">Contact</h1>
 		<br>
 		<!--<form action="/action_page.php" id="usrform">
   Name: <input type="text" name="usrname">
   <input type="submit">
 </form>-->
-
 		<form action="/action_page.php" id="usrform">
 		Name:  <input type="text" name="Firstname_Lastname" />
 		<br>
@@ -32,7 +42,7 @@
 		</form>
 	</div>	
 	<br>
-	<div> 
+	<div class="footer"> 
 		<footer>&copy;Copyright 2017 Lantz Weaver</footer>
 	</div>
 </body>

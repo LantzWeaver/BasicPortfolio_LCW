@@ -1,26 +1,62 @@
+.body{
+	background-image: url(https://raw.githubusercontent.com/LantzWeaver/BasicPortfolio_LCW/master/assets_lcw/images_lcw/gray_background.jpg);
+	margin: 0px;
+	padding: 0px;
+}
+
 .header{
-	width: 250px;
-    height: 50px;
-    box-sizing: border-box;
+	background: white;
+	width: 100%;
+	margin: 0px;
+	padding: 15px;
+	border-bottom: 5px gray;
+}
+
+#name{
+    border-width: 20px;
     background-color: #109e9e;
     color: white;
     text-align: center;
     margin-top: auto;
-    margin-right: auto;
+    margin-right: 750px;
     margin-bottom: inherit;
-    margin-left: initial;
+    margin-left: 100px;
+    display: inline;
+    padding: inherit;
 }
 
-.tabs{
+#tab1{
+	display: inline;
+	size: 14px;
+	color: gray;
+	font-family: sans-serif;
+}
 
+#tab2{
+	display: inline;
+	size: 14px;
+	color: gray;
+	font-family: sans-serif;
+}
+
+#tab3{
+	display: inline;
+	size: 14px;
+	color: gray;
+	font-family: sans-serif;
 }
 
 .head2{
-
+	color: #109e9e;
+	float: right;
+	display: inline;
 }
 
 .head3{
-
+	color: #109e9e; 
+	float: left;
+	margin-left: : 100px;
+	display: block;
 }
 
 #propic{
@@ -28,6 +64,7 @@
 }
 
 .words{
+	color: gray;
 
 }
 
