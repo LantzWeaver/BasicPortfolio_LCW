@@ -45,6 +45,22 @@
 	font-family: sans-serif;
 }
 
+a:link {
+	color: gray;
+    text-decoration: none;
+}
+
+a:visited {
+	color: gray;
+    text-decoration: none;
+}
+
+
+a:active {
+	color: gray;
+    text-decoration: none;
+}
+
 .head3{
 	color: #109e9e;
 	float: left;
