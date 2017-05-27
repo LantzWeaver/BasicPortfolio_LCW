@@ -135,8 +135,7 @@ a:active {
 }
 
 .words{
-	position: absolute;
-    z-index: 0;
+	position: static;
     color: gray;
     background: white;
     font-family: sans-serif;
