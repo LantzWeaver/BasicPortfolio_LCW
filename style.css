@@ -6,15 +6,11 @@
 
 .header{
 	background: white;
-	width: 100%;
-	margin: 0px;
-	padding: 15px;
-	border-style: solid;
-	border-width: thin;
-    border-top: none;
+    width: 100%;
+    margin: 0px;
+    padding: 15px;
+    border-width: thin;
     border-bottom-color: #dedada;
-    border-left: none;
-    border-right: none;
 }
 
 #name{
@@ -30,7 +26,7 @@
 }
 
 #tab1{
-	display: inline;
+    display: inline;
 	size: 12px;
 	color: gray;
 	font-family: sans-serif;
@@ -42,11 +38,11 @@
 }
 
 #tab2{
-	display: inline;
-	size: 12px;
-	color: gray;
-	font-family: sans-serif;
-	border-style: none;
+    display: inline;
+    size: 12px;
+    color: gray;
+    font-family: sans-serif;
+    border-style: none;
     border-top: none;
     border-bottom-color: none;
     border-left: none;
@@ -54,11 +50,11 @@
 }
 
 #tab3{
-	display: inline;
-	size: 12px;
-	color: gray;
-	font-family: sans-serif;
-	border-style: none;
+    display: inline;
+    size: 12px;
+    color: gray;
+    font-family: sans-serif;
+    border-style: none;
     border-top: none;
     border-bottom-color: none;
     border-left: none;
@@ -123,6 +119,7 @@ a:active {
 	margin-top: 35px;
 	background: white;
 	float: right;
+    margin-left: 600px;
 	margin-right: 200px;
     border-style: solid;
     border-width: thin;
@@ -153,6 +150,24 @@ a:active {
 
 }
 
+.form{
+    position: static;
+    color: gray;
+    background: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-right: 500px;
+    margin-bottom: 0px;
+    margin-left: 115px;
+    padding-top: 125px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    border-style: solid;
+    border-color: #dedada;
+    border-width: thin;
+}
+
 .footer{
 	background: gray;
     position: absolute;
@@ -160,7 +175,7 @@ a:active {
     width: 100%;
     height: 22px;
     margin: 0px;
-    margin-top: 1s00px;
+    margin-top: 100px;
     margin-bottom: 0px;
     padding: 15px;
     font-family: sans-serif;
